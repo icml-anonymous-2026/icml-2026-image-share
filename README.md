@@ -1,6 +1,6 @@
 Partial snippet of the response to reviewer 'AbgY'
 
-> Method-wise, maybe there can be more sophisticated settings like evolution based on feedbacks, etc. Or, maybe there can be more insights of how we can use LLMs to generate automata, e.g. the memory-augmented part is a good example.
+> W3: Method-wise, maybe there can be more sophisticated settings like evolution based on feedbacks, etc. Or, maybe there can be more insights of how we can use LLMs to generate automata, e.g. the memory-augmented part is a good example.
 
 Thank you for the suggestion. We note that improving automata generation via feedback, evolution, or iterative refinement is outside the scope of this paper, whose contribution is an LLM evaluation framework. Our goal is to isolate a model’s ability to produce a strong executable artifact in one shot, with the automaton then held fixed during evaluation. Introducing feedback-based optimization would confound this objective by measuring the outer improvement loop rather than the model’s base artifact-generation ability.
 
